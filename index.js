@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
 app.use('/tacos', tacosController)
 
 var server = app.listen(process.env.PORT || 3000)
-console.log('Server UP')
+console.log('Server UP localhost:3000')
 
 // we export the running server so we can use it in testing
 module.exports = server
